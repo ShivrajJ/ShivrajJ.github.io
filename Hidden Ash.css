@@ -1,0 +1,163 @@
+h2 {
+    Font-family: 'Adobe Fangsong Std', sans-serif;
+    color: #a88080;
+    padding-top: 0px;
+    background: rgba(255, 255, 255, 0.73);
+    margin: 10px 0px 0px 0px;
+    border: solid #a88080;
+    text-align: center;
+}
+.container-1 {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+body {
+    background-color: #8e6666; 
+    color: #668e8e;
+}
+.nav {
+    margin: -16px -8px -10px -10px;
+    padding-bottom: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.nav ul {
+    display: inline-flex;
+    border-left: 2px solid #d3d3d3;
+}
+.nav li{
+    border-right:2px solid #d3d3d3;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    position: relative;
+    display: inline;
+}
+li {
+    transition: 0.4s ease-out;
+    border: 2px black;
+}
+
+li:hover {
+    background: #d3d3d3;
+}
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+a {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+.content a:hover {
+    border-bottom: 1px solid black;
+}
+.pull-left {
+    padding-left: 15px;
+    padding-right: 0px;
+    border-left: 5px;
+    border-right: 0px;
+    text-align: left;
+}
+.pull-right {
+    padding-right: 15px;
+    padding-left: 0px;
+    border-right: 5px;
+    border-left: 0px;
+    text-align: right;
+    float: right; 
+}
+.jumbotron {
+    margin-top: 10px;
+    margin-bottom:10px; 
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    Background-image: url("Hidden Ash.png");
+    background-size: 300px;
+}
+.Content {
+    Font-family: 'Shift', sans-serif;
+    Border-top: 2px solid #dbdbdb;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.73);
+    margin: 0px 20px 0px 20px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 50px;
+}
+footer {
+    background: rgba(255, 255, 255, 0.9);
+    margin: -36px 20px 0px 20px;
+    overflow: hidden;
+    display: flex;
+}
+.col-md-4 div {
+    display: inline-flex;
+}
+.thumbnail {
+    margin: 10px;
+    position: relative;
+    width: 300px;
+}
+.fig {
+    margin-left: 0px;
+    background-color: black;
+}
+.Seperation {
+    padding-left: 20px;
+}
+img {
+    opacity: 1;
+    transition: 0.5s ease-out;
+}
+img:hover {
+    position:relative;
+    opacity: 0.7;
+    z-index: 1;
+}
+p.Caption {
+    position: relative;
+    margin-left: -420px;
+    margin-top: 180px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    opacity: 1;
+    z-index: 2;
+}
+.FHeading1 {
+    border-right: 1px solid #c1c1c1;
+    float: left;
+    flex: 1;
+}
+
+.FHeading2 {
+    border-right: 1px solid #c1c1c1;
+    overflow: hidden;
+    flex: 1;
+}
+.FHeading3 {
+    float: right;
+    flex: 1;
+}
+footer ul {
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+footer h3 {
+   font-family: "Adobe Fangsong Std", sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   border-bottom: 1px solid #c1c1c1;
+   margin: 0px 0px 0px 0px;
+   background-color: rgba(228, 199, 199, 0.27);
+}
+footer li {
+    line-height: 30px;
+}

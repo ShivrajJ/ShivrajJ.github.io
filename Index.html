@@ -1,0 +1,104 @@
+<!DOCTYPE html public>
+<html>
+  <head>
+    <title>Hidden Ash</title>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="Hidden Ash.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function main() {
+            $('.jumbotron').hide();
+            $('.jumbotron').fadeIn(2000);
+            $('.thumbnail').hide();
+            $('.thumbnail').fadeIn(4000);
+        }
+        $(document).ready(main);
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container-1">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Members</a></li>
+          <li><a href="#">Join Discord</a></li>
+        </ul>
+        <ul class="pull-right"> 
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li class="Help"><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+    <h2> Welcome to the official website of the Hidden Ash Village.</h2>
+    <div class="jumbotron">
+    </div>  
+    <div class="Content">  
+      <p> We are the shinobi of the Hidden Ash and we welcome you into our humble abode.</p>
+      <p>Click <a href="#">here</a> to sign up for an account, and depending on whether you're a visitor or one of us, there will be different levels of access to the website.</p>
+      <div class="Images">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <figure class="fig">
+              <a href="#"><img src="World.png" width="330" height="200" class="World-Relations"/></a>
+            </figure>
+            <a href="#"><p class="Caption">World Relations</p></a>
+          </div>
+          <div class="seperation">
+          </div> 
+          <div class="thumbnail">
+            <figure class="fig">
+              <a href="#"><img class="Discord" src="http://www.utaunz.com/wp-content/uploads/2016/07/discord-logo.jpg" width= "330" height="200" alt="Join Discord"/></a>
+            </figure>
+              <a href="#"><p class="Caption">Join Our Discord</p></a>
+          </div>
+        </div>  
+        <div class="col-md-4">  
+          <div class="thumbnail">
+            <figure class="fig">
+              <a href="#"><img src="http://media.indiedb.com/cache/images/games/1/24/23457/thumb_620x2000/weapons.png" width="330" height="200" alt="Trade"></a>
+            </figure>
+              <a href="#"><p class="Caption">Trade with Us</p></a>
+          </div>  
+          <div class="Seperation">
+          </div>
+          <div class="thumbnail">
+            <figure class="fig">    
+              <a href="#"><img src="http://i.imgur.com/1hfwOxB.png" width="330" height="200" alt="Join SLO"></a>
+            </figure>
+              <a href="#"><p class="Caption">Join SLO</p></a>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+     <div class="FHeading1">
+        <center><h3>News</h3>
+            <ul style="list-style: none;">
+                <li class="article">This Website Is Created.</li>
+                <li class="article">Kazuki Raiu Is Elected Elder.</li>
+                <li class="article">This Village Is Made.</li>
+            </ul>
+        </center>
+      </div>
+      <div class="FHeading2">
+        <center><h3>About</h3>
+            <ul style="list-style: none;">
+                <li class="article">Who Are We?</li>
+                <li class="article">Recruitment</li>
+                <li class="article">What's In It For You?</li>
+            </ul>
+        </center>
+      </div>
+      <div class="FHeading3">
+        <center><h3>Contact</h3>
+            <ul style="list-style: none;">
+                <li class="article">Discord</li>
+                <li class="article">SLO</li>
+                <li class="article">Skype</li>
+            </ul>
+        </center>
+      </div>
+  </footer>
+</html>
