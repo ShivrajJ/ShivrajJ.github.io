@@ -111,7 +111,7 @@ footer {
     padding-left: 20px;
 }
 img {
-    opacity: 1;
+    opacity: 0.99;
     transition: 0.5s ease-out;
 }
 img:hover {
