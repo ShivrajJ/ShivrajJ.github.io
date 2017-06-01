@@ -160,9 +160,12 @@ footer h3 {
 footer li {
     line-height: 30px;
 }
+<<<<<<< HEAD
 footer li:hover {
     cursor: pointer;
 }
 abbr:hover {
     cursor: pointer;
 }
+=======
+>>>>>>> 56ede002ae383692fb0bc6acdaad00106f6e5dee
