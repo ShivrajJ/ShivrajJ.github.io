@@ -1,47 +1,41 @@
+<!DOCTYPE html public>
 <html>
   <head>
     <title>Hidden Ash</title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="SignUp.css">
+    <link type="text/css" rel="stylesheet" href="Members.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="SignUp.js"></script>
+    <script src="HiddenAsh.js"></script>
   </head>
   <body>
     <div class="nav">
       <div class="container-1">
         <ul class="pull-left">
           <li><a href="Index.html">Home</a></li>
-          <li><a href="Members.html">Members</a></li>
+          <li><a href="#">Members</a></li>
           <li><a href="DiscordPage.html">Join Discord</a></li>
         </ul>
         <ul class="pull-right"> 
           <li><a href="SignUpPage.html">Sign Up</a></li>
-          <li><a href="#SignIn">Sign In</a></li>
+          <li><a href="SignUpPage.html">Sign In</a></li>
           <li class="Help"><a href="#Help">Help</a></li>
         </ul>
       </div>
     </div>
-    <h2> Sign Up</h2>
+    <h2>Member List</h2>
     <div class="jumbotron">
     </div>  
     <div class="Content">  
-      <p style="font-size: 30px;">Feel free to sign up for an account, even if you're not one of our Shinobi!</p>
-      <p style="font-size= 20px; margin-top: -25px;">(We Don't Bite)</p>
-      <div class="Form">
-        <form>
-            <input type="text" name="Username" placeholder="Username" value=""><br>
-            <input type="text" name="Email Address" placeholder="Email Address" value=""><br>
-            <input type="password" name="Password" placeholder="Password" value=""><br>
-            <input type="submit" name="Submit" value="Sign Up"><br>
-        </form>
-        <p style="font-size = 20px; margin-top: 40px;" id="SignIn" class="SignIn">Already a member? Sign in!</p>
-        <div class="SignInD">
-          <form class="SignInF">
-              <input type="text" name="NameOrEmail" placeholder="Username or Email Address" value=""><br>
-              <input type="password" name="PasswordS"placeholder="Password" value=""><br>
-              <input type="submit" name="SignIn" value="Sign In"><br>
-          </form>
-        </div>
+      <p style="font-size: 30px;"> These are the Shinobi that are a part of the village officially.</p>
+      <p style="font-size: 20px; margin-top: -20px;">Click on a name to go to their profile page.</p>
+      <div class="List">
+        <p><a href="#">Kazuki Raiu</a>, Elected Elder</p>
+          <p><a href="#">Sanji</a>, Jonin</p>
+          <p><a href="#">Diamond Lee</a>, Chunin</p>
+          <p><a href="#">Konohuro</a>, Chunin</p>
+        <p><a href="#">ABC</a>, Genin</p>
+        <p><a href="#">DEF</a>, Genin</p>
+        <p><a href="#">GHI</a>, Academy Student</p>
       </div>
     </div>
   </body>

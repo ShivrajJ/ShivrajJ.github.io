@@ -5,39 +5,19 @@
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="HiddenAsh.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        function main() {
-            $('.jumbotron').hide();
-            $('.jumbotron').fadeIn(2000);
-            $('.thumbnail').hide();
-            $('.thumbnail').fadeIn(3000);
-        }
-        $(document).ready(main);
-        $(document).ready(function() {
-            $('a').on('click', function(event) {
-            if (this.hash !== "") {
-            event.preventDefault();
-            var hash= this.hash;
-                
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800);
-            }
-        });
-    });
-    </script>
+    <script src="HiddenAsh.js"></script>
   </head>
   <body>
     <div class="nav">
       <div class="container-1">
         <ul class="pull-left">
           <li><a href="Index.html">Home</a></li>
-          <li><a href="#">Members</a></li>
-          <li><a href="#">Join Discord</a></li>
+          <li><a href="Members.html">Members</a></li>
+          <li><a href="DiscordPage.html">Join Discord</a></li>
         </ul>
         <ul class="pull-right"> 
           <li><a href="SignUpPage.html">Sign Up</a></li>
-          <li><a href="#">Sign In</a></li>
+          <li><a href="SignUpPage.html">Sign In</a></li>
           <li class="Help"><a href="#Help">Help</a></li>
         </ul>
       </div>
@@ -47,7 +27,7 @@
     </div>  
     <div class="Content">  
       <p> We are the shinobi of the Hidden Ash and we welcome you into our humble abode.</p>
-      <p>Click <a href="#">here</a> to sign up for an account, and depending on whether you're a visitor or one of us, there will be different levels of access to the website.</p>
+      <p>Click <a href="SignUpPage.html">here</a> to sign up for an account, and depending on whether you're a visitor or one of us, there will be different levels of access to the website.</p>
       <div class="Images">
         <div class="col-md-4">
           <div class="thumbnail">
@@ -106,7 +86,7 @@
       <div class="FHeading3">
         <center><h3>Contact</h3>
             <ul style="list-style: none;">
-                <li class="article">Discord</li>
+                <a href="DiscordPage.html"><li class="article">Discord</li></a>
                 <li class="article"><abbr title="Shinobi Life Online">SLO</abbr></li>
                 <li class="article">Skype</li>
             </ul>
