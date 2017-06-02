@@ -159,3 +159,6 @@ abbr {
 footer a {
     color: #668e8e;
 }
+p .signin:hover {
+    cursor: pointer;
+}
